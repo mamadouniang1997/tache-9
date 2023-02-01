@@ -1,0 +1,44 @@
+@media (max-width:920px) {
+    #is1{
+        width: 50%;
+    height: auto;
+    min-height:820px;
+    background-image: url('../img/téléchargement.png');
+    background-repeat: no-repeat;
+    /* background-position:  center; */
+    background-position: left; 
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 200px 0 100px 0 ;
+
+
+    }
+}
+@media (max-width:760px){
+    .d-f{
+        flex-direction: column;
+        width: 100%;
+    }
+    #is1{
+        
+        background-size: 50%;
+        
+        background-position: center; 
+        width: 100%;
+    }
+    #is2{
+        width: 100%;
+        background-size: cover;
+        background-position: center; 
+    }
+    .FRE{ 
+        align-items: center;
+        position: center;
+        justify-content: center;
+        margin-left: 12px;
+        width: 100%;
+    }
+   .carousel-caption p {
+    font-size: 30px;
+   }
+}
