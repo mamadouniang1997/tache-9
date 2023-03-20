@@ -10,10 +10,12 @@
     background-size: contain;
     background-attachment: fixed;
     padding: 200px 0 100px 0 ;
+    
 
 
     }
 }
+
 @media (max-width:760px){
     .d-f{
         flex-direction: column;
